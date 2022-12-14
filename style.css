@@ -1,0 +1,90 @@
+
+.carousel-item img{
+
+    height: 400px;
+    
+
+}
+.card{
+    position: relative;
+    
+}
+
+.card .tech{
+    background-color: white;
+    position: absolute;
+    color: green;
+    padding: 3px;
+    font-weight: bolder;
+}
+
+.card .news{
+    background-color: white;
+    position: absolute;
+    color: lightcoral;
+    padding: 3px;
+    font-weight: bolder;
+}
+
+.card .nature{
+    background-color: white;
+    position: absolute;
+    color: lightcoral;
+    padding: 3px;
+    font-weight: bolder;
+}
+
+
+.card .btn{
+    display: block;
+}
+
+#two .card{
+    width: 25%;
+}
+
+.news{
+    margin: 5px;
+    letter-spacing: 3px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+    z-index: 1;
+    box-shadow:15px 15px 8px lightgrey;
+    border-radius: 6px;
+}
+
+.sd{
+    background-color: tomato;
+    color: whitesmoke;
+    font-weight: bolder;
+    
+    /*width: 235px;*/
+    position: absolute;
+     /*hangi element altta kalmak isterse ona z index veririz*/
+    z-index: 1;
+    padding: 8px;
+}
+
+
+
+@media(max-width:768px){
+    #two .card{
+        width: 100%;
+
+    }
+
+    .card:hover{
+        transform: none;
+        transition: none;
+        z-index: 1;
+        box-shadow:none;
+        border-radius: 6px;
+    }
+
+    
+}
+
